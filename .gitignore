@@ -1,0 +1,5 @@
+*.mp3
+build/
+dist/
+virt/
+app.ico
