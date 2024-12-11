@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['yt-dlp-gui.py'],
+    ['youtube-downloader.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='yt-dlp-gui',
+    name='youtube-downloader',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
